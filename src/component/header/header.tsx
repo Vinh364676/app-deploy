@@ -7,7 +7,7 @@ import { MenuOutlined } from '@ant-design/icons';
 import UseRespon from '../../hook/useRessponsive';
 
 function HeaderLayout() {
-  const { isTablet, isMobile } = UseRespon();
+  const {  isMobile } = UseRespon();
   const [open, setOpen] = useState(false);
   const showDrawer = () => {
     setOpen(true);

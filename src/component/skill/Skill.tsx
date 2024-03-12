@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import "./Skill.scss";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -28,7 +28,7 @@ function Skill() {
     <div className='contact__line'></div>
     <div className='skill_slide'>
     <Slider className='slide' {...settings}>
-        {/* Map over the skillsData array to generate slides */}
+      
         {skillsData.map((skill) => (
   <div key={skill.id}>
     <div className='slide__container'>
