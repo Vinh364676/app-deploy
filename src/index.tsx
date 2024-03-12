@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import Slider from "react-slick";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 // Khởi tạo AOS trước khi render ứng dụng
